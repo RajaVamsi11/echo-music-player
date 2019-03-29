@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:padding="25dp"
+            android:text="App version : 0.7"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/developer"
+            android:visibility="gone"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="0.1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="194dp"
+            android:padding="25dp"
+            android:text="This App is made by Dundi Raja Vamsi Reddy, Moksh Mahajan and Shubham Goyal as a part of Mini Project"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

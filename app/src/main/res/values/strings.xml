@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Echo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello settings fragment</string>
+    <string name="hello_song_playing_fragment">Hello Song playing fragment</string>
+    <string name="hello_main_screen">Hello Main Screen</string>
+</resources>
